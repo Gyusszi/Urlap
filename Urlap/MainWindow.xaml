@@ -39,6 +39,8 @@
 		</StackPanel>
 
 		<Button x:Name="btn_rendeles" Content="Rendelés leadása" Margin="0,10,0,0" Click="btn_rendeles_Click"/>
+
+		<TextBlock x:Name="txt_osszegzes" Text="" Margin="0,10,0,0" TextWrapping="Wrap"/>
 		</StackPanel>
 	</Grid>
 </Window>
