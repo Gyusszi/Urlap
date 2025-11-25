@@ -16,11 +16,23 @@
 		</ListBox>
 
 		<TextBlock Text="Válaszd ki a pizza méretét:" Margin="0,10,0,0"/>
-		<ComboBox x:Name="cmbMeret" Width="150">
+		<ComboBox x:Name="cmb_meret" Width="150">
 			<ComboBoxItem Content="Kicsi"/>
 			<ComboBoxItem Content="Közepes"/>
 			<ComboBoxItem Content="Nagy"/>
 		</ComboBox>
+
+		<TextBlock Text="Válaszd ki a feltéteket:" Margin="0,10,0,0"/>
+		<WrapPanel>
+			<CheckBox x:Name="cb_sajt" Content="Sajt" Margin="5"/>
+			<CheckBox x:Name="cb_sonka" Content="Sonka" Margin="5"/>
+			<CheckBox x:Name="cb_gomba" Content="Gomba" Margin="5"/>
+			<CheckBox x:Name="cb_oliva" Content="Szalámi" Margin="5"/>
+			<CheckBox x:Name="cb_kukorica" Content="Kukorica" Margin="5"/>
+			<CheckBox x:Name="cb_parmezan" Content="Parmezán" Margin="5"/>
+		</WrapPanel>
+			
+		
 		</StackPanel>
 	</Grid>
 </Window>
