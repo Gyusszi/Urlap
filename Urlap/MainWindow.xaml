@@ -32,11 +32,13 @@
 			<CheckBox x:Name="cb_parmezan" Content="Parmezán" Margin="5"/>
 		</WrapPanel>
 
-			<TextBlock Text="Hogyan szeretnéd átvenni?" Margin="0,10,0,0"/>
-			<StackPanel Orientation="Horizontal">
-				<RadioButton x:Name="rb_Hazhoz" Content="Házhozszállítás" GroupName="Atvetel" Margin="5"/>
-				<RadioButton x:Name="rb_Szemelyes" Content="Személyes átvétel" GroupName="Atvetel" Margin="5"/>
-			</StackPanel>
+		<TextBlock Text="Hogyan szeretnéd átvenni?" Margin="0,10,0,0"/>
+		<StackPanel Orientation="Horizontal">
+			<RadioButton x:Name="rb_Hazhoz" Content="Házhozszállítás" GroupName="Atvetel" Margin="5"/>
+			<RadioButton x:Name="rb_Szemelyes" Content="Személyes átvétel" GroupName="Atvetel" Margin="5"/>
+		</StackPanel>
+
+		<Button x:Name="btn_rendeles" Content="Rendelés leadása" Margin="0,10,0,0" Click="btn_rendeles_Click"/>
 		</StackPanel>
 	</Grid>
 </Window>
